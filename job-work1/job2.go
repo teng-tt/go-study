@@ -3,11 +3,13 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"time"
 )
 
 func main() {
 
 	//生成随机数,猜字游戏
+	rand.Seed(time.Now().Unix())
 	for {
 		number := rand.Intn(100)
 		fmt.Println("这是一个猜数字游戏，猜测数字范围为0-100，你有5次猜测机会")
