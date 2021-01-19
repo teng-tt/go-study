@@ -1,2 +1,2 @@
 # go-study
-go学习
+go语言学习练习demo提交仓库
